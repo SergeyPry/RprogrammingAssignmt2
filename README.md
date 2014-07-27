@@ -53,15 +53,16 @@ These are the steps to complete the assignment:
 
 ### Solution
 
-## This assignment deals with the problem of speeding up
-## computations by retrieving the results of certain computations
-## from the cache.
+This assignment deals with the problem of speeding up
+computations by retrieving the results of certain computations
+from the cache.
 
 
-## makeCacheMatrix functions enables setting and getting
-## the values for a variable containing a matrix.
-## Since the inverse function is computationally expensive,
-## it helps to retrieve from the memory where this value has already been assigned
+makeCacheMatrix functions enables setting and getting
+the values for a variable containing a matrix.
+Since the inverse function is computationally expensive,
+it helps to retrieve from the memory where this value has already been assigned
+´´´
 makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
 	set <- function(y){
@@ -92,4 +93,4 @@ cacheSolve <- function(x, ...) {
 	x$setsolve(m)
 	m
 }
-
+´´´

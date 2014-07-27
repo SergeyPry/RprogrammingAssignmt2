@@ -64,7 +64,7 @@ Since the inverse function is computationally expensive,
 it helps to retrieve from the memory where this value has already been assigned
 
 <!-- -->
-makeCacheMatrix <- function(x = matrix()) {
+`makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
 	set <- function(y){
 		x <<- y
@@ -78,11 +78,11 @@ makeCacheMatrix <- function(x = matrix()) {
 		getsolve = getsolve)
 	
 }
-
+`
 The cacheSolve function calculates the inverse of a matrix
 Alternatively, this  function obtains the variable from the cache
 
-cacheSolve <- function(x, ...) {
+`cacheSolve <- function(x, ...) {
 	m <- x$getsolve()
 	if(!is.null(m)) {
 		message("getting cached data")
@@ -92,5 +92,5 @@ cacheSolve <- function(x, ...) {
 	m <- solve(data, ...)
 	x$setsolve(m)
 	m
-}
+}`
 

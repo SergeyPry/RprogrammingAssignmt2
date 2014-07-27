@@ -58,7 +58,7 @@ computations by retrieving the results of certain computations
 from the cache.
 
 
-makeCacheMatrix functions enables setting and getting
+`makeCacheMatrix` functions enables setting and getting
 the values for a variable containing a matrix.
 Since the inverse function is computationally expensive,
 it helps to retrieve from the memory where this value has already been assigned

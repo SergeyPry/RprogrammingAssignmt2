@@ -83,7 +83,6 @@ makeCacheMatrix <- function(x = matrix()) {
 The cacheSolve function calculates the inverse of a matrix
 Alternatively, this  function obtains the variable from the cache
 
-<!-- -->
 cacheSolve <- function(x, ...) {
 	m <- x$getsolve()
 	if(!is.null(m)) {

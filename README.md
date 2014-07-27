@@ -63,7 +63,6 @@ the values for a variable containing a matrix.
 Since the inverse function is computationally expensive,
 it helps to retrieve from the memory where this value has already been assigned
 
-<!-- -->
 `makeCacheMatrix <- function(x = matrix()) {
 	m <- NULL
 	set <- function(y){
